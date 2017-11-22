@@ -1,0 +1,6 @@
+framework module WifiOBDIIUtils {
+  umbrella header "WifiOBDIIUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
