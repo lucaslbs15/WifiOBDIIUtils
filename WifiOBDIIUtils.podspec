@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WifiOBDIIUtils'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WifiOBDIIUtils.'
+  s.version          = '0.1.5'
+  s.summary          = 'Util classes to do OBD II connection.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This classes will be working together with OBD2Connect pod to connect with Wifi OBD II device from cars. These util classes will return formatted values from OBD II device.
                        DESC
 
-  s.homepage         = 'https://github.com/lucas-bicca-ilegra/WifiOBDIIUtils'
+  s.homepage         = 'https://github.com/lucaslbs15/WifiOBDIIUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lucas-bicca-ilegra' => 'lucaslbs15@gmail.com' }
-  s.source           = { :git => 'https://github.com/lucas-bicca-ilegra/WifiOBDIIUtils.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'lucaslbs15' => 'lucaslbs15@gmail.com' }
+  s.source           = { :git => 'https://github.com/lucaslbs15/WifiOBDIIUtils.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/lucaslbs15'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WifiOBDIIUtils/Classes/**/*'
+  s.source_files = 'WifiOBDIIUtils/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'WifiOBDIIUtils' => ['WifiOBDIIUtils/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation', 'OBD2Connect'
+  s.dependency 'OBD2Connect', '~> 2.0.0'
 end

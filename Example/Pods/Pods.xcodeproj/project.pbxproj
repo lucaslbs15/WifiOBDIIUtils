@@ -17,6 +17,34 @@
 		CA4FC5E4857E7A37FC4CFAE0FD35630C /* Pods-WifiOBDIIUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FE0C2EF9C9A9B6D592537E22DB7EF8 /* Pods-WifiOBDIIUtils_Tests-dummy.m */; };
 		CF1FC16EEF35657F18FCB2A6437FB264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D8508FA8C1F76BE5261437A50FE0401E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA2339D71FC639A300750EBF /* RunTimeSinceEngineStartUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339BB1FC639A100750EBF /* RunTimeSinceEngineStartUtil.swift */; };
+		FA2339D81FC639A300750EBF /* IntakeManifoldPressureUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339BC1FC639A100750EBF /* IntakeManifoldPressureUtil.swift */; };
+		FA2339D91FC639A300750EBF /* DistanceSinceCodesClearedUpUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339BD1FC639A100750EBF /* DistanceSinceCodesClearedUpUtil.swift */; };
+		FA2339DA1FC639A300750EBF /* FuelTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339BE1FC639A100750EBF /* FuelTypeEnum.swift */; };
+		FA2339DB1FC639A300750EBF /* DeviceIdentifierUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339BF1FC639A100750EBF /* DeviceIdentifierUtil.swift */; };
+		FA2339DC1FC639A300750EBF /* EngineFuelRateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339C01FC639A100750EBF /* EngineFuelRateUtil.swift */; };
+		FA2339DD1FC639A300750EBF /* ResultUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339C11FC639A100750EBF /* ResultUtil.swift */; };
+		FA2339DE1FC639A300750EBF /* MAFAirFlowRateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339C21FC639A100750EBF /* MAFAirFlowRateUtil.swift */; };
+		FA2339DF1FC639A300750EBF /* TimingAdvanceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339C31FC639A100750EBF /* TimingAdvanceUtil.swift */; };
+		FA2339E01FC639A300750EBF /* EngineRPMUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339C41FC639A100750EBF /* EngineRPMUtil.swift */; };
+		FA2339E11FC639A300750EBF /* FuelRailPressureUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339C51FC639A100750EBF /* FuelRailPressureUtil.swift */; };
+		FA2339E21FC639A300750EBF /* VehicleSpeedUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339C61FC639A200750EBF /* VehicleSpeedUtil.swift */; };
+		FA2339E31FC639A300750EBF /* FuelRailGaugePressureUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339C71FC639A200750EBF /* FuelRailGaugePressureUtil.swift */; };
+		FA2339E41FC639A300750EBF /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339C81FC639A200750EBF /* ResultType.swift */; };
+		FA2339E51FC639A300750EBF /* EngineCoolantTemperatureUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339C91FC639A200750EBF /* EngineCoolantTemperatureUtil.swift */; };
+		FA2339E61FC639A300750EBF /* HybridBatteryPackRemaingLifeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339CA1FC639A200750EBF /* HybridBatteryPackRemaingLifeUtil.swift */; };
+		FA2339E71FC639A300750EBF /* FuelLevelInputUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339CB1FC639A200750EBF /* FuelLevelInputUtil.swift */; };
+		FA2339E81FC639A300750EBF /* CommandError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339CC1FC639A200750EBF /* CommandError.swift */; };
+		FA2339E91FC639A300750EBF /* DistanceTraveledWithMalfunctionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339CD1FC639A200750EBF /* DistanceTraveledWithMalfunctionUtil.swift */; };
+		FA2339EA1FC639A300750EBF /* FuelPressureUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339CE1FC639A200750EBF /* FuelPressureUtil.swift */; };
+		FA2339EB1FC639A300750EBF /* FuelTypeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339CF1FC639A200750EBF /* FuelTypeUtil.swift */; };
+		FA2339EC1FC639A300750EBF /* EngineOilTemperatureUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339D01FC639A300750EBF /* EngineOilTemperatureUtil.swift */; };
+		FA2339ED1FC639A300750EBF /* AmbientAirTemperatureUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339D11FC639A300750EBF /* AmbientAirTemperatureUtil.swift */; };
+		FA2339EE1FC639A300750EBF /* OBDUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339D21FC639A300750EBF /* OBDUtils.swift */; };
+		FA2339EF1FC639A300750EBF /* IntakeAirTemperatureUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339D31FC639A300750EBF /* IntakeAirTemperatureUtil.swift */; };
+		FA2339F01FC639A300750EBF /* OBDCommandEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339D41FC639A300750EBF /* OBDCommandEnum.swift */; };
+		FA2339F11FC639A300750EBF /* BarometricPressureUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339D51FC639A300750EBF /* BarometricPressureUtil.swift */; };
+		FA2339F21FC639A300750EBF /* FuelInjectionTimingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2339D61FC639A300750EBF /* FuelInjectionTimingUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +60,7 @@
 /* Begin PBXFileReference section */
 		0139FE3AFC1A416818842BF7AF70E5A8 /* Pods-WifiOBDIIUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WifiOBDIIUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
 		076EF8AF5FF29C1DE030E389FFF6B9A5 /* WifiOBDIIUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WifiOBDIIUtils-dummy.m"; sourceTree = "<group>"; };
-		082167AEB63C45618DA4954751A077A8 /* Pods-WifiOBDIIUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WifiOBDIIUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		082167AEB63C45618DA4954751A077A8 /* Pods-WifiOBDIIUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WifiOBDIIUtils_Tests.modulemap"; sourceTree = "<group>"; };
 		0C301AB2A55AA3BB788094B7EEAA6952 /* Pods-WifiOBDIIUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WifiOBDIIUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0FCF3A0848A549E127FA7D87A52E24C8 /* Pods-WifiOBDIIUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WifiOBDIIUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C6270B5384C47EE9D6BEE038BA94598 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,26 +68,54 @@
 		26BC8C9293D994B1ED8FE0A4AC6D6D9F /* WifiOBDIIUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WifiOBDIIUtils-prefix.pch"; sourceTree = "<group>"; };
 		29BCFD03922E256D513063B1E7A30EFA /* Pods-WifiOBDIIUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WifiOBDIIUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2B0D76F683456EE5A174F798CE1B5156 /* Pods-WifiOBDIIUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WifiOBDIIUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2CCB3E6FDDF6CD0A453E16D89B4F19D2 /* WifiOBDIIUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WifiOBDIIUtils.framework; path = WifiOBDIIUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35200D2B7E7E955E00541C8D1E77A947 /* Pods_WifiOBDIIUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WifiOBDIIUtils_Tests.framework; path = "Pods-WifiOBDIIUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCB3E6FDDF6CD0A453E16D89B4F19D2 /* WifiOBDIIUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WifiOBDIIUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35200D2B7E7E955E00541C8D1E77A947 /* Pods_WifiOBDIIUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WifiOBDIIUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3652D6967D034D41BBCD92685CC4EFD0 /* Pods-WifiOBDIIUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WifiOBDIIUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3899D57F1CD160F7A59DA10C2B15A823 /* Pods-WifiOBDIIUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WifiOBDIIUtils_Example-resources.sh"; sourceTree = "<group>"; };
 		3F6D72633B61AC5A139DB99D610EF63D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WifiOBDIIUtils/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		4DC9F23836844A3A95EFD1673A6CDF34 /* WifiOBDIIUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WifiOBDIIUtils.xcconfig; sourceTree = "<group>"; };
-		5073EB409395AFAEC0637DD5784C59DF /* WifiOBDIIUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WifiOBDIIUtils.modulemap; sourceTree = "<group>"; };
+		5073EB409395AFAEC0637DD5784C59DF /* WifiOBDIIUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WifiOBDIIUtils.modulemap; sourceTree = "<group>"; };
 		6139936C313952F3A3BEEF84DC668E89 /* Pods-WifiOBDIIUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WifiOBDIIUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7021B329E3451BF1D4D2DB59AEB7C524 /* Pods-WifiOBDIIUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WifiOBDIIUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		72FE0C2EF9C9A9B6D592537E22DB7EF8 /* Pods-WifiOBDIIUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WifiOBDIIUtils_Tests-dummy.m"; sourceTree = "<group>"; };
-		7424076E6ABBC107CE6619465F3812CB /* Pods-WifiOBDIIUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WifiOBDIIUtils_Example.modulemap"; sourceTree = "<group>"; };
+		7424076E6ABBC107CE6619465F3812CB /* Pods-WifiOBDIIUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WifiOBDIIUtils_Example.modulemap"; sourceTree = "<group>"; };
 		7C1FC26042287DC99063ECE36D2BC6FB /* Pods-WifiOBDIIUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WifiOBDIIUtils_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99AA7FD98C89ED0F0E7399B41302C0D6 /* WifiOBDIIUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WifiOBDIIUtils-umbrella.h"; sourceTree = "<group>"; };
-		A138DCBE19F8A130995453E46AC9A693 /* Pods_WifiOBDIIUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WifiOBDIIUtils_Example.framework; path = "Pods-WifiOBDIIUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A138DCBE19F8A130995453E46AC9A693 /* Pods_WifiOBDIIUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WifiOBDIIUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC9DDC633F801FF4D9948305A23070F /* Pods-WifiOBDIIUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WifiOBDIIUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEB3D2921D6FCC62B326E6BB9BAB3EBD /* Pods-WifiOBDIIUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WifiOBDIIUtils_Example-dummy.m"; sourceTree = "<group>"; };
 		DC27403979B8BC41E42F23A5BA880A06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8192010503DED192085B77E410419C6 /* Pods-WifiOBDIIUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WifiOBDIIUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA2339BB1FC639A100750EBF /* RunTimeSinceEngineStartUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RunTimeSinceEngineStartUtil.swift; path = WifiOBDIIUtils/Classes/RunTimeSinceEngineStartUtil.swift; sourceTree = "<group>"; };
+		FA2339BC1FC639A100750EBF /* IntakeManifoldPressureUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntakeManifoldPressureUtil.swift; path = WifiOBDIIUtils/Classes/IntakeManifoldPressureUtil.swift; sourceTree = "<group>"; };
+		FA2339BD1FC639A100750EBF /* DistanceSinceCodesClearedUpUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DistanceSinceCodesClearedUpUtil.swift; path = WifiOBDIIUtils/Classes/DistanceSinceCodesClearedUpUtil.swift; sourceTree = "<group>"; };
+		FA2339BE1FC639A100750EBF /* FuelTypeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuelTypeEnum.swift; path = WifiOBDIIUtils/Classes/FuelTypeEnum.swift; sourceTree = "<group>"; };
+		FA2339BF1FC639A100750EBF /* DeviceIdentifierUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceIdentifierUtil.swift; path = WifiOBDIIUtils/Classes/DeviceIdentifierUtil.swift; sourceTree = "<group>"; };
+		FA2339C01FC639A100750EBF /* EngineFuelRateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EngineFuelRateUtil.swift; path = WifiOBDIIUtils/Classes/EngineFuelRateUtil.swift; sourceTree = "<group>"; };
+		FA2339C11FC639A100750EBF /* ResultUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultUtil.swift; path = WifiOBDIIUtils/Classes/ResultUtil.swift; sourceTree = "<group>"; };
+		FA2339C21FC639A100750EBF /* MAFAirFlowRateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MAFAirFlowRateUtil.swift; path = WifiOBDIIUtils/Classes/MAFAirFlowRateUtil.swift; sourceTree = "<group>"; };
+		FA2339C31FC639A100750EBF /* TimingAdvanceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimingAdvanceUtil.swift; path = WifiOBDIIUtils/Classes/TimingAdvanceUtil.swift; sourceTree = "<group>"; };
+		FA2339C41FC639A100750EBF /* EngineRPMUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EngineRPMUtil.swift; path = WifiOBDIIUtils/Classes/EngineRPMUtil.swift; sourceTree = "<group>"; };
+		FA2339C51FC639A100750EBF /* FuelRailPressureUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuelRailPressureUtil.swift; path = WifiOBDIIUtils/Classes/FuelRailPressureUtil.swift; sourceTree = "<group>"; };
+		FA2339C61FC639A200750EBF /* VehicleSpeedUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VehicleSpeedUtil.swift; path = WifiOBDIIUtils/Classes/VehicleSpeedUtil.swift; sourceTree = "<group>"; };
+		FA2339C71FC639A200750EBF /* FuelRailGaugePressureUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuelRailGaugePressureUtil.swift; path = WifiOBDIIUtils/Classes/FuelRailGaugePressureUtil.swift; sourceTree = "<group>"; };
+		FA2339C81FC639A200750EBF /* ResultType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultType.swift; path = WifiOBDIIUtils/Classes/ResultType.swift; sourceTree = "<group>"; };
+		FA2339C91FC639A200750EBF /* EngineCoolantTemperatureUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EngineCoolantTemperatureUtil.swift; path = WifiOBDIIUtils/Classes/EngineCoolantTemperatureUtil.swift; sourceTree = "<group>"; };
+		FA2339CA1FC639A200750EBF /* HybridBatteryPackRemaingLifeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HybridBatteryPackRemaingLifeUtil.swift; path = WifiOBDIIUtils/Classes/HybridBatteryPackRemaingLifeUtil.swift; sourceTree = "<group>"; };
+		FA2339CB1FC639A200750EBF /* FuelLevelInputUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuelLevelInputUtil.swift; path = WifiOBDIIUtils/Classes/FuelLevelInputUtil.swift; sourceTree = "<group>"; };
+		FA2339CC1FC639A200750EBF /* CommandError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandError.swift; path = WifiOBDIIUtils/Classes/CommandError.swift; sourceTree = "<group>"; };
+		FA2339CD1FC639A200750EBF /* DistanceTraveledWithMalfunctionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DistanceTraveledWithMalfunctionUtil.swift; path = WifiOBDIIUtils/Classes/DistanceTraveledWithMalfunctionUtil.swift; sourceTree = "<group>"; };
+		FA2339CE1FC639A200750EBF /* FuelPressureUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuelPressureUtil.swift; path = WifiOBDIIUtils/Classes/FuelPressureUtil.swift; sourceTree = "<group>"; };
+		FA2339CF1FC639A200750EBF /* FuelTypeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuelTypeUtil.swift; path = WifiOBDIIUtils/Classes/FuelTypeUtil.swift; sourceTree = "<group>"; };
+		FA2339D01FC639A300750EBF /* EngineOilTemperatureUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EngineOilTemperatureUtil.swift; path = WifiOBDIIUtils/Classes/EngineOilTemperatureUtil.swift; sourceTree = "<group>"; };
+		FA2339D11FC639A300750EBF /* AmbientAirTemperatureUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmbientAirTemperatureUtil.swift; path = WifiOBDIIUtils/Classes/AmbientAirTemperatureUtil.swift; sourceTree = "<group>"; };
+		FA2339D21FC639A300750EBF /* OBDUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OBDUtils.swift; path = WifiOBDIIUtils/Classes/OBDUtils.swift; sourceTree = "<group>"; };
+		FA2339D31FC639A300750EBF /* IntakeAirTemperatureUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntakeAirTemperatureUtil.swift; path = WifiOBDIIUtils/Classes/IntakeAirTemperatureUtil.swift; sourceTree = "<group>"; };
+		FA2339D41FC639A300750EBF /* OBDCommandEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OBDCommandEnum.swift; path = WifiOBDIIUtils/Classes/OBDCommandEnum.swift; sourceTree = "<group>"; };
+		FA2339D51FC639A300750EBF /* BarometricPressureUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarometricPressureUtil.swift; path = WifiOBDIIUtils/Classes/BarometricPressureUtil.swift; sourceTree = "<group>"; };
+		FA2339D61FC639A300750EBF /* FuelInjectionTimingUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuelInjectionTimingUtil.swift; path = WifiOBDIIUtils/Classes/FuelInjectionTimingUtil.swift; sourceTree = "<group>"; };
 		FD76A143935445109CA973A7A821CCE7 /* Pods-WifiOBDIIUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WifiOBDIIUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE2979A2AF4C7B6DD86A2B92851AE8BE /* Pods-WifiOBDIIUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WifiOBDIIUtils_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +165,34 @@
 		2FA1295BAC6BB6F1392313869244BAC7 /* WifiOBDIIUtils */ = {
 			isa = PBXGroup;
 			children = (
+				FA2339D11FC639A300750EBF /* AmbientAirTemperatureUtil.swift */,
+				FA2339D51FC639A300750EBF /* BarometricPressureUtil.swift */,
+				FA2339CC1FC639A200750EBF /* CommandError.swift */,
+				FA2339BF1FC639A100750EBF /* DeviceIdentifierUtil.swift */,
+				FA2339BD1FC639A100750EBF /* DistanceSinceCodesClearedUpUtil.swift */,
+				FA2339CD1FC639A200750EBF /* DistanceTraveledWithMalfunctionUtil.swift */,
+				FA2339C91FC639A200750EBF /* EngineCoolantTemperatureUtil.swift */,
+				FA2339C01FC639A100750EBF /* EngineFuelRateUtil.swift */,
+				FA2339D01FC639A300750EBF /* EngineOilTemperatureUtil.swift */,
+				FA2339C41FC639A100750EBF /* EngineRPMUtil.swift */,
+				FA2339D61FC639A300750EBF /* FuelInjectionTimingUtil.swift */,
+				FA2339CB1FC639A200750EBF /* FuelLevelInputUtil.swift */,
+				FA2339CE1FC639A200750EBF /* FuelPressureUtil.swift */,
+				FA2339C71FC639A200750EBF /* FuelRailGaugePressureUtil.swift */,
+				FA2339C51FC639A100750EBF /* FuelRailPressureUtil.swift */,
+				FA2339BE1FC639A100750EBF /* FuelTypeEnum.swift */,
+				FA2339CF1FC639A200750EBF /* FuelTypeUtil.swift */,
+				FA2339CA1FC639A200750EBF /* HybridBatteryPackRemaingLifeUtil.swift */,
+				FA2339D31FC639A300750EBF /* IntakeAirTemperatureUtil.swift */,
+				FA2339BC1FC639A100750EBF /* IntakeManifoldPressureUtil.swift */,
+				FA2339C21FC639A100750EBF /* MAFAirFlowRateUtil.swift */,
+				FA2339D41FC639A300750EBF /* OBDCommandEnum.swift */,
+				FA2339D21FC639A300750EBF /* OBDUtils.swift */,
+				FA2339C81FC639A200750EBF /* ResultType.swift */,
+				FA2339C11FC639A100750EBF /* ResultUtil.swift */,
+				FA2339BB1FC639A100750EBF /* RunTimeSinceEngineStartUtil.swift */,
+				FA2339C31FC639A100750EBF /* TimingAdvanceUtil.swift */,
+				FA2339C61FC639A200750EBF /* VehicleSpeedUtil.swift */,
 				3F6D72633B61AC5A139DB99D610EF63D /* ReplaceMe.swift */,
 				1565F2216F47076A5239E7B226011A69 /* Support Files */,
 			);
@@ -296,6 +380,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					09424DE2A15E72F52B9728CC7E11BD8D = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -338,6 +427,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2339EA1FC639A300750EBF /* FuelPressureUtil.swift in Sources */,
+				FA2339EB1FC639A300750EBF /* FuelTypeUtil.swift in Sources */,
+				FA2339ED1FC639A300750EBF /* AmbientAirTemperatureUtil.swift in Sources */,
+				FA2339EF1FC639A300750EBF /* IntakeAirTemperatureUtil.swift in Sources */,
+				FA2339DF1FC639A300750EBF /* TimingAdvanceUtil.swift in Sources */,
+				FA2339DE1FC639A300750EBF /* MAFAirFlowRateUtil.swift in Sources */,
+				FA2339EE1FC639A300750EBF /* OBDUtils.swift in Sources */,
+				FA2339DD1FC639A300750EBF /* ResultUtil.swift in Sources */,
+				FA2339D71FC639A300750EBF /* RunTimeSinceEngineStartUtil.swift in Sources */,
+				FA2339E21FC639A300750EBF /* VehicleSpeedUtil.swift in Sources */,
+				FA2339E01FC639A300750EBF /* EngineRPMUtil.swift in Sources */,
+				FA2339D81FC639A300750EBF /* IntakeManifoldPressureUtil.swift in Sources */,
+				FA2339E61FC639A300750EBF /* HybridBatteryPackRemaingLifeUtil.swift in Sources */,
+				FA2339DB1FC639A300750EBF /* DeviceIdentifierUtil.swift in Sources */,
+				FA2339DC1FC639A300750EBF /* EngineFuelRateUtil.swift in Sources */,
+				FA2339E11FC639A300750EBF /* FuelRailPressureUtil.swift in Sources */,
+				FA2339E41FC639A300750EBF /* ResultType.swift in Sources */,
+				FA2339E81FC639A300750EBF /* CommandError.swift in Sources */,
+				FA2339F11FC639A300750EBF /* BarometricPressureUtil.swift in Sources */,
+				FA2339E51FC639A300750EBF /* EngineCoolantTemperatureUtil.swift in Sources */,
+				FA2339E31FC639A300750EBF /* FuelRailGaugePressureUtil.swift in Sources */,
+				FA2339EC1FC639A300750EBF /* EngineOilTemperatureUtil.swift in Sources */,
+				FA2339F21FC639A300750EBF /* FuelInjectionTimingUtil.swift in Sources */,
+				FA2339F01FC639A300750EBF /* OBDCommandEnum.swift in Sources */,
+				FA2339D91FC639A300750EBF /* DistanceSinceCodesClearedUpUtil.swift in Sources */,
+				FA2339E91FC639A300750EBF /* DistanceTraveledWithMalfunctionUtil.swift in Sources */,
+				FA2339E71FC639A300750EBF /* FuelLevelInputUtil.swift in Sources */,
+				FA2339DA1FC639A300750EBF /* FuelTypeEnum.swift in Sources */,
 				BAC22363A8B591316D0BBC9DF023ED78 /* Pods-WifiOBDIIUtils_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3652D6967D034D41BBCD92685CC4EFD0 /* Pods-WifiOBDIIUtils_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -381,6 +499,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -635,6 +754,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAC9DDC633F801FF4D9948305A23070F /* Pods-WifiOBDIIUtils_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -659,6 +779,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
