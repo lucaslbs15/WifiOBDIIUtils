@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WifiOBDIIUtils_Example' do
+  pod 'WifiOBDIIUtils', :path => '../'
+
+  target 'WifiOBDIIUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
